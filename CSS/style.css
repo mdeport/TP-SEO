@@ -33,4 +33,21 @@
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.card-container {
+  width: 75%;
+}
+.cadre-inscription {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.form-control {
+  display: none;
+  flex-direction: column;
 }
